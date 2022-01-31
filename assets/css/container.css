@@ -14,5 +14,9 @@
   border-radius: 0 0 230px 230px;
   transform: translateX(-70px);
   position: fixed;
-  z-index: 0;
+  z-index: -1;
+}
+
+#container-main {
+  display: flex;
 }
