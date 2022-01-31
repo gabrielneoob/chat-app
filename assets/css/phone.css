@@ -41,10 +41,10 @@
 
 .visu {
   background: var(--white);
-  width: 180px;
+  width: 160px;
   height: 24px;
   top: 0;
-  right: 54px;
+  right: 62px;
   position: absolute;
   border-radius: 0 0 30px 30px;
 }

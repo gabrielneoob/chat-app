@@ -11,7 +11,7 @@
   font-weight: 500;
   max-width: 24ch;
   line-height: 1.4;
-  background: rgba(163, 157, 170, 0.14);
+  background: rgba(163, 157, 170, 0.1);
   padding: 10px;
   border-radius: 12px;
 }
@@ -31,4 +31,22 @@
 
 .chat-photos- img {
   border-radius: 15px;
+}
+
+/*CHAT-CLIENT*/
+
+.chat-client {
+  font-size: 0.65rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  justify-self: flex-end;
+  max-width: 26ch;
+  line-height: 1.5;
+  background: var(--white);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.chat-client:nth-child(5) {
+  margin: 0 0 10px;
 }
