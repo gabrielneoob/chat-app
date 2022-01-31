@@ -1,0 +1,18 @@
+#container {
+  height: 100vh;
+  background: var(--light-grayish-violet);
+}
+
+#banner {
+  background: linear-gradient(
+    -140deg,
+    var(--light-magneta) 0%,
+    var(--light-violet) 60%
+  );
+  width: 480px;
+  height: 90vh;
+  border-radius: 0 0 230px 230px;
+  transform: translateX(-70px);
+  position: fixed;
+  z-index: 0;
+}

@@ -17,3 +17,38 @@
   --very-dark-desaturated: hsl(271, 36%, 24%);
   --very-light-magenta: hsl(289, 100%, 72%);
 }
+
+/*text*/
+.ct-1 {
+  color: var(--pale-violet);
+}
+.ct-2 {
+  color: var(--moderate-violet);
+}
+.ct-3 {
+  color: var(--desaturated-dark);
+}
+.ct-4 {
+  color: var(--garyish-blue);
+}
+.ct-4 {
+  color: var(--very-dark-desaturated);
+}
+.ct-5 {
+  color: var(--dark-grayish);
+}
+
+/*SECONDARY*/
+
+.cs-1 {
+  color: #fff;
+}
+.cs-2 {
+  color: var(--light-grayish-violet);
+}
+.cs-3 {
+  color: var(--very-dark-desaturated);
+}
+.cs-4 {
+  color: var(--very-light-magenta);
+}
