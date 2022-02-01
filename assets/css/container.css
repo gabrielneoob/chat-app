@@ -1,6 +1,12 @@
+#container-bg {
+  height: 100vh;
+  background: var(--light-grayish-violet);
+}
+
 #container {
   height: 100vh;
   background: var(--light-grayish-violet);
+  max-width: 1440px;
 }
 
 #banner {
@@ -9,9 +15,9 @@
     var(--light-magneta) 0%,
     var(--light-violet) 60%
   );
-  width: 480px;
+  width: 500px;
   height: 90vh;
-  border-radius: 0 0 230px 230px;
+  border-radius: 0 0 250px 250px;
   transform: translateX(-70px);
   position: fixed;
   z-index: 0;
@@ -21,4 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  margin-left: 143px;
 }
