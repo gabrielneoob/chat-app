@@ -50,3 +50,43 @@
 .chat-client:nth-child(5) {
   margin: 0 0 10px;
 }
+
+/*PRICES*/
+.prices {
+  justify-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 16px 10px 10px;
+  gap: 8px;
+  border-radius: 13px 13px 13px 5px;
+  background: linear-gradient(
+    to right,
+    var(--light-magneta),
+    var(--light-violet)
+  );
+  color: var(--white);
+  cursor: pointer;
+}
+
+.btg {
+  min-width: 15px;
+  min-height: 15px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  opacity: 60%;
+}
+
+.prices span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.65rem;
+  opacity: 85%;
+}
+
+.value {
+  font-weight: 600;
+  justify-content: flex-end;
+}
