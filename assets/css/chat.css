@@ -14,6 +14,11 @@
   background: rgba(163, 157, 170, 0.1);
   padding: 10px;
   border-radius: 12px;
+  transition: transform 0.4s;
+}
+
+.chat-user:hover {
+  transform: translateX(5px);
 }
 
 /*CHAT_PHOTOS*/
@@ -27,6 +32,11 @@
 
 .chat-photos- {
   max-width: 47px;
+  transition: transform 0.5s;
+}
+
+.chat-photos-:hover {
+  transform: scale(1.15);
 }
 
 .chat-photos- img {
@@ -45,6 +55,11 @@
   background: var(--white);
   padding: 10px;
   border-radius: 12px;
+  transition: transform 0.5s;
+}
+
+.chat-client:hover {
+  transform: translateX(-5px);
 }
 
 .chat-client:nth-child(5) {
@@ -76,6 +91,21 @@
   border: 1px solid var(--white);
   border-radius: 50%;
   opacity: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btg- {
+  min-width: 9px;
+  min-height: 9px;
+  border-radius: 50%;
+  margin-right: 0.0156px;
+  transition: background 0.3s;
+}
+
+.prices:hover .btg- {
+  background: #fff;
 }
 
 .prices span {
@@ -116,4 +146,5 @@
   align-items: center;
   color: var(--white);
   font-weight: 600;
+  cursor: pointer;
 }
