@@ -33,6 +33,7 @@
 
 .chat-photos- {
   max-width: 47px;
+  cursor: pointer;
   transition: transform 0.4s;
 }
 
