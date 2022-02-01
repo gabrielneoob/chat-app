@@ -1,0 +1,16 @@
+section {
+  max-width: 450px;
+  padding-left: 60px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--very-dark-desaturated);
+  margin-bottom: 30px;
+}
+
+section p {
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 1.6;
+  font-weight: 400;
+}

@@ -2,8 +2,12 @@
   background: var(--white);
   max-width: 330px;
   min-width: 330px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px;
+  position: relative;
+  right: 0;
+  z-index: 3;
+  transform: scale(0.85);
 }
 
 .user {
@@ -44,7 +48,7 @@
   width: 160px;
   height: 24px;
   top: 0;
-  right: 62px;
+  right: 75px;
   position: absolute;
   border-radius: 0 0 30px 30px;
 }
