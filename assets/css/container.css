@@ -23,10 +23,29 @@
   z-index: 0;
 }
 
+@media (max-width: 800px) {
+  #banner {
+    position: absolute;
+    transform: translateX(-315px);
+    height: 70vh;
+  }
+}
+
 #container-main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   margin-left: 143px;
+}
+
+@media (max-width: 800px) {
+  #container {
+    height: auto;
+  }
+  #container-main {
+    flex-direction: column;
+    margin: 0;
+    padding-top: 20px;
+  }
 }
